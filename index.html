@@ -1,79 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sandesh </title>
-
-    
-
-</head>
-
-
-<body style="background-color: aqua;">
-    
-
-<p style="text-align: >Welcome to my website</p>
-
-    
-
-    <a href="https://google.com/">google</a><br>
-    <a href="https://google.com/">google</a>
-    <b>computer class</b><br>
-    <i>my name is sandesh gaire</i><br>
-    <u style="background-color: blue;">hello world</u><br><samp></samp>
-    <big>class 11 p</big>
-    <hr>
-    h<sub>2</sub>o is water <br>
-    a<sup>2</sup>+b<sup>2</sup>=a<sup>2</sup>+2ab+b<sup>2</sup>
-    <h2>
-        <b>List</b>
-        <ul>
-        <li>
-        kathmandu
-    </li>
-    
-
-<li>
-    pokhara
-    </li>
-</ul>
-<ol type="A">
-    <li>
-        apple
-    </li>
-    <li>ball</li>
-    <li>cat</li>
-</ol></h2>
-<img src="kijiu.jpg" alt="">
-<img src="download.jpg" alt="">
-<pre>sandesh 
-    gaire 
-    lumbini
-    lions
-</pre>
-<table>
-    <tr>
-        <th>date</th>
-        <th>Name</th>
-        <th>Address</th>
-        <th>contact</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>sandesh gaire</td>
-        <td>tillotma 3</td>
-        <td>9765046322</td>
-        <
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Samir bhandari</td>
-        <td>tillotma 3</td>
-        <td>9768337518</td>
-    </tr>
-</table>
-</body>
-
-</html>
+ <html lang="en" > 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <title>Sandesh Gaire Portfolio Preview</title> 
+        <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+         :root { --color-primary: #25096c;
+             --color-bg-light: #f58585;
+              --color-bg-dark: #373030;
+               --color-text-light: #1f2937;
+                --color-text-dark: #e5e7eb;
+                 --color-border-light: #e5e7eb;
+                  --color-border-dark: #374151;
+                   }
+                    @media (prefers-color-scheme: dark)
+                     
+                     {
+                         body { background: var(--color-bg-dark);
+                             color: var(--color-text-dark);
+                             } 
+                             header, section, footer 
+                             { border-color: var(--color-border-dark); 
+                                
+                            } a { color: var(--color-primary); 
+                            }
+                             a:hover { text-decoration: underline;
+                             } 
+                             .btn-primary { background: var(--color-primary); color: white; 
+                            }
+                             .btn-primary:hover { background: #4338ca; 
+                            } }
+                              @media (prefers-color-scheme: light)
+                               { body { background: var(--color-bg-light); 
+                                color: var(--color-text-light); 
+                            } header, section, footer { border-color:
+                            var(--color-border-light); } a { color: var(--color-primary); 
+                            } a:hover { text-decoration: underline; } .btn-primary
+                             { background: var(--color-primary); color: white; }
+                              .btn-primary:hover { background: #4338ca; } } 
+                              body { margin: 0; font-family: 'Poppins', sans-serif; line-height: 1.6; }
+                               header { max-width: 900px; margin: auto; padding: 1rem; display: flex;
+                                justify-content: space-between; align-items: center; 
+                                border-bottom: 1px solid; } 
+                                header h1 { font-weight: 700; font-size: 1.5rem; } nav ul { list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0; } nav a { font-weight: 600; font-size: 1rem; text-decoration: none; cursor: pointer; } section { max-width: 900px; margin: 2rem auto; padding: 0 1rem; border-bottom: 1px solid; } section:last-of-type { border-bottom: none; } /* Hero */ #home { display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; justify-content: center; } #home .text { flex: 1 1 300px; min-width: 280px; } #home h2 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; } #home p { font-size: 1.1rem; margin-bottom: 1.25rem; } #home .btn-primary { padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; cursor: pointer; font-size: 1rem; transition: background 0.3s ease; } #home .profile-pic { flex: 1 1 250px; min-width: 250px; border-radius: 50%; border: 4px solid var(--color-primary); box-shadow: 0 8px 20px rgba(16, 10, 123, 0.3); max-width: 250px; aspect-ratio: 1/1; object-fit: cover; } /* About */ #about p { max-width: 700px; font-size: 1.1rem; } /* Skills */ #skills .skills-container { display: flex; flex-wrap: wrap; gap: 2rem; max-width: 700px; } #skills > div { flex: 1 1 220px; } #skills h4 { font-weight: 600; font-size: 1.25rem; margin-bottom: 0.75rem; } #skills ul { margin: 0; padding-left: 1.2rem; } #skills li { margin-bottom: 0.4rem; font-size: 1rem; } /* Services */ #services .services-container { display: flex; flex-wrap: wrap; gap: 1.5rem; max-width: 700px; } #services .service-card { flex: 1 1 220px; border: 1px solid; border-radius: 0.5rem; padding: 1rem; transition: box-shadow 0.3s ease; cursor: default; background: transparent; } #services .service-card:hover { box-shadow: 0 6px 15px rgba(79, 70, 229, 0.4); } #services h4 { margin-top: 0; font-weight: 600; font-size: 1.2rem; margin-bottom: 0.5rem; } #services p { font-size: 1rem; } /* Projects */ #projects .projects-container { max-width: 700px; display: flex; flex-direction: column; gap: 1.5rem; } #projects .project-card { border: 1px solid; border-radius: 0.5rem; padding: 1rem; transition: box-shadow 0.3s ease; } #projects .project-card:hover { box-shadow: 0 6px 15px rgba(72, 64, 218, 0.4); } #projects h4 { margin: 0 0 0.5rem; font-weight: 600; font-size: 1.3rem; } #projects p { margin: 0.25rem 0; font-size: 1rem; } #projects a { font-size: 0.95rem; color: var(--color-primary); text-decoration: none; } #projects a:hover { text-decoration: underline; } /* Contact */ #contact p { max-width: 700px; font-size: 1.1rem; margin-bottom: 1rem; } #contact ul { list-style: none; padding-left: 0; font-size: 1rem; max-width: 700px; } #contact li { margin-bottom: 0.5rem; } #contact form { max-width: 700px; margin-top: 1rem; display: flex; flex-direction: column; gap: 1rem; } #contact input, #contact textarea { padding: 0.75rem; font-size: 1rem; border: 1px solid; border-radius: 0.4rem; background: transparent; color: inherit; resize: vertical; outline-offset: 2px; outline-color: var(--color-primary); transition: border-color 0.3s ease; } #contact input:focus, #contact textarea:focus { border-color: var(--color-primary); } #contact button { max-width: 200px; background: var(--color-primary); color: white; border: none; padding: 0.75rem; border-radius: 0.5rem; cursor: pointer; font-weight: 600; font-size: 1rem; transition: background 0.3s ease; } #contact button:hover { background: #3226bb; } /* Footer */ footer { max-width: 900px; margin: 3rem auto 1rem; text-align: center; font-size: 0.9rem; color: rgb(119, 107, 107); border-top: 1px solid; padding-top: 1rem; } /* Responsive */ @media (max-width: 768px) { #home { flex-direction: column; } header nav ul { gap: 1rem; } } </style> </head> <body> <header> <h1>Sandesh Gaire</h1> <nav> <ul> <li><a href="#home">Home</a></li> <li><a href="#about">About</a></li> <li><a href="#skills">Skills</a></li> <li><a href="#services">Services</a></li> <li><a href="#projects">Projects</a></li> <li><a href="#contact">Contact</a></li> </ul> </nav> </header> <section id="home"> <div class="text"> <h2>Computer Programmer | Web Developer | DevOps | IT Expert</h2> <p>IT is the path where I learn technology, gain skills, and build my future.</p> <button class="btn-primary" onclick="location.href='#projects'">View My Work</button> </div> <img src="profile.JPG" alt="Sandesh Gaire" class="profile-pic" /> </section> <section id="about"> <h3>About Me</h3> <p> I am Sandesh Gaire, a passionate computer programmer, web developer, content creator, and IT expert with over 2 months of experience. With proficiency in 8+ programming languages and extensive experience completing 40+ Python and Django projects, I specialize in crafting scalable and efficient software solutions. Previously, I served as Secretary at the Interact Club of Pokhara Prativa Fishtail, where I honed my leadership and organizational skills. </p> </section> <section id="skills"> <h3>Skills & Expertise</h3> <div class="skills-container"> <div> <h4>Programming Languages</h4> <ul> <li>Python</li> <li>JavaScript</li> <li>C++</li> <li>Java</li> <li>PHP</li> <li>Go</li> <li>TypeScript</li> </ul> </div> <div> <h4>Frameworks & Tools</h4> <ul> <li>Django</li> <li>React</li> <li>Node.js</li> <li>Docker</li> <li>Git & GitHub</li> <li>Linux</li> <li>CI/CD Pipelines</li> </ul> </div> <div> <h4>Other Expertise</h4> <ul> <li>DevOps & Cloud Infrastructure</li> <li>Database Management</li> <li>IT Consultation</li> <li>UI/UX Optimization</li> </ul> </div> </div> </section> <section id="services"> <h3>Services Offered</h3> <div class="services-container"> <div class="service-card"> <h4>Web Design & Development</h4> <p>Professional, efficient, and tailored solutions to meet your project needs.</p> </div> <div class="service-card"> <h4>IT Consultation</h4> <p>Professional, efficient, and tailored solutions to meet your project needs.</p> </div> <div class="service-card"> <h4>UI/UX Optimization</h4> <p>Professional, efficient, and tailored solutions to meet your project needs.</p> </div> <div class="service-card"> <h4>Full-stack Application Development</h4> <p>Professional, efficient, and tailored solutions to meet your project needs.</p> </div> <div class="service-card"> <h4>DevOps Infrastructure Setup</h4> <p>Professional, efficient, and tailored solutions to meet your project needs.</p> </div> </div> </section> <section id="projects"> <h3>Selected Projects</h3> <div class="projects-container"> <div class="project-card"> <h4>Project One</h4> <p>A robust Django web app solving X problem.</p> <p><em>Tech: Python, Django, PostgreSQL</em></p> <a href="#" target="_blank" rel="noopener noreferrer">View on GitHub</a> </div> <div class="project-card"> <h4>Project Two</h4> <p>Full-stack platform built with React & Django backend.</p> <p><em>Tech: React, Django, Docker</em></p> <a href="#" target="_blank" rel="noopener noreferrer">View on GitHub</a> </div> <!-- Add more projects here --> </div> </section> <section id="contact" class="contact-section"> <h3>Get in Touch</h3> <p>Feel free to reach out via email, phone, or social media.</p> <div class="contact-container"> <!-- Contact Info --> <div class="contact-info"> <ul> <li>📧 Email: <a href="mailto:sandeshgaire075@gmail.com">sandeshgaire075@gmail.com</a></li> <li>📱 Phone: Will update soon</li> <li>🌐 Social: Sandesh Gaire<br> <small>(Facebook • LinkedIn • Instagram)</small> </li> </ul> </div> <!-- Contact Form --> <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! I will get back to you soon.');"> <input type="text" placeholder="Your Name" required> <input type="email" placeholder="Your Email" required> <textarea rows="5" placeholder="Your Message" required></textarea> <button type="submit">Send Message</button> </form> </div> </section> <footer> © 2025 Sandesh Gaire. All rights reserved. </footer>
+ </body>
